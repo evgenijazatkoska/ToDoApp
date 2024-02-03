@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Poor Story', sans-serif!important;
+    background-image: linear-gradient(to left, #051937, #21234b, #3e2c5c, #5d346b, #7e3a75);
+}
+
+button:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.main-box {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    max-width: 40%;
+    margin-left: 30%;
+    padding: 30px 0;
+    
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.edit-button {
+    color: white;
+    background-color: #212529;
+    border: none;
+    margin-right: 15px;
+    padding: 3px 15px;
+    font-size: large;
+}
+
+.delete-button {
+    color: white;
+    border: none;
+    background-color: tomato;
+    padding: 3px 15px;
+    font-size: large;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    text-align: center;
+}
+
+.input-group  {
+    max-width: 90%;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+label {
+    max-width: 50%;
+    font-size: 25px;
+}
+button {
+    font-size: large;
+}
+
+.done {
+    opacity: .4;
+    text-decoration: line-through;
+}
+
+.edit-input {
+    margin-right: 1em;
+    flex: 1;
+    padding: 10px;
+    border: none ;
+    border-radius: 3px;
+    outline: none;
+}
+
+@media (max-width: 1346px) {
+    .main-box {
+        max-width: 50%;
+        margin-left: 25%;
+    }
+}
+@media (max-width: 808px) {
+    .main-box {
+        max-width: 70%;
+        margin-left: 15%;
+    }
+}
+@media (max-width: 1843px) {
+    .main-box {
+        max-width: 70%;
+        margin-left: 15%;
+    }
+}
+@media (max-width: 768px) {
+    .main-box {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    button {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .edit-button {
+        margin-bottom: 10px;
+    }
+
+    label {
+    
+    }
+}
+
